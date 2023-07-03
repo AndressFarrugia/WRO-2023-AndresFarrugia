@@ -15,4 +15,10 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
 ## Introduction
 
-_This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
+_The robot is a small, four-wheeled vehicle with a camera mounted on top. The camera is used to detect the track borders and other obstacles, and the robot's software uses this information to control the wheels and keep the robot on track. The robot also has a sensor that detects the finish line, and when it reaches the finish line, it stops._
+
+_The robot is programmed to drive the track in a specific direction. The direction is determined by a coin toss before the match begins. The robot starts at a random section of the track, and the distance between the track borders is determined by another coin toss._
+
+_The robot is allowed to make one repair per match. If the robot breaks down, the team can ask for permission to take it out of the track, fix it, and put it back in. The match timer does not stop during a repair._
+
+_The robot is scored based on how quickly it completes the track and how many times it hits obstacles. The fastest robot with the fewest hits wins the match._
